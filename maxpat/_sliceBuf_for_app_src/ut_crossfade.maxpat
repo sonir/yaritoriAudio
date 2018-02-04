@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 230.0, 389.0, 640.0, 718.0 ],
+		"rect" : [ 665.0, 247.0, 640.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,50 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "Macintosh HD:/Users/hana/Sonilab/1802_CCMA/sound/soundproto_origin.wav",
+								"filekind" : "audiofile",
+								"loop" : 1,
+								"content_state" : 								{
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-5",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 79.0, 37.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 617.0, 45.0, 45.0 ],
+					"patching_rect" : [ 76.0, 630.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -55,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 497.0, 156.5, 116.0, 31.0 ],
+					"patching_rect" : [ 140.0, 86.5, 116.0, 31.0 ],
 					"style" : ""
 				}
 
@@ -67,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 497.0, 209.0, 41.0, 22.0 ],
+					"patching_rect" : [ 140.0, 139.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 127."
 				}
@@ -80,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "list", "list" ],
-					"patching_rect" : [ 225.0, 433.666626, 85.0, 22.0 ],
+					"patching_rect" : [ 78.0, 446.666626, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "omx.peaklim~"
 				}
@@ -94,7 +133,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 324.0, 305.666626, 47.0, 87.0 ],
+					"patching_rect" : [ 177.0, 318.666626, 47.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 393.666687, 47.0, 133.0 ],
 					"saved_attribute_attributes" : 					{
@@ -124,7 +163,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 275.0, 305.666626, 47.0, 87.0 ],
+					"patching_rect" : [ 128.0, 318.666626, 47.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 393.666687, 39.0, 131.0 ],
 					"saved_attribute_attributes" : 					{
@@ -154,7 +193,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 226.0, 305.666626, 47.0, 87.0 ],
+					"patching_rect" : [ 79.0, 318.666626, 47.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 393.666687, 35.0, 131.0 ],
 					"saved_attribute_attributes" : 					{
@@ -183,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 324.0, 265.0, 40.0, 22.0 ],
+					"patching_rect" : [ 177.0, 278.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "storm"
 				}
@@ -196,7 +235,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 275.0, 265.0, 47.0, 22.0 ],
+					"patching_rect" : [ 128.0, 278.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "rhythm"
 				}
@@ -209,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 225.0, 265.0, 41.0, 22.0 ],
+					"patching_rect" : [ 78.0, 278.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "drone"
 				}
@@ -225,7 +264,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 225.0, 467.666626, 41.0, 129.0 ],
+					"patching_rect" : [ 78.0, 480.666626, 41.0, 129.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 177.0, 393.666687, 41.0, 131.0 ],
 					"saved_attribute_attributes" : 					{
@@ -250,45 +289,6 @@
 			}
 , 			{
 				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "Macintosh HD:/Users/hana/Development/openFrameworks/of_v0.9.8_osx_release/apps/1802_CCMA/yaritori/src/max/_sliceBuf_for_app_src/soundproto_origin.wav",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"originallengthms" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-5",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 225.0, 78.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-3",
 					"maxclass" : "flonum",
@@ -296,7 +296,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 161.0, 50.0, 22.0 ],
+					"patching_rect" : [ 140.0, 174.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -308,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 225.0, 198.0, 81.0, 22.0 ],
+					"patching_rect" : [ 78.0, 211.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "effect_sweep"
 				}
@@ -422,7 +422,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 1 ],
-					"midpoints" : [ 242.5, 412.666626, 300.5, 412.666626 ],
+					"midpoints" : [ 95.5, 425.666626, 153.5, 425.666626 ],
 					"source" : [ "obj-126", 1 ]
 				}
 
@@ -430,7 +430,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"midpoints" : [ 235.5, 412.666626, 234.5, 412.666626 ],
+					"midpoints" : [ 88.5, 425.666626, 87.5, 425.666626 ],
 					"source" : [ "obj-126", 0 ]
 				}
 
@@ -438,7 +438,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 1 ],
-					"midpoints" : [ 291.5, 412.666626, 300.5, 412.666626 ],
+					"midpoints" : [ 144.5, 425.666626, 153.5, 425.666626 ],
 					"source" : [ "obj-128", 1 ]
 				}
 
@@ -446,7 +446,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"midpoints" : [ 284.5, 412.666626, 234.5, 412.666626 ],
+					"midpoints" : [ 137.5, 425.666626, 87.5, 425.666626 ],
 					"source" : [ "obj-128", 0 ]
 				}
 
@@ -454,7 +454,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 1 ],
-					"midpoints" : [ 340.5, 412.666626, 300.5, 412.666626 ],
+					"midpoints" : [ 193.5, 425.666626, 153.5, 425.666626 ],
 					"source" : [ "obj-130", 1 ]
 				}
 
@@ -462,7 +462,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"midpoints" : [ 333.5, 412.666626, 234.5, 412.666626 ],
+					"midpoints" : [ 186.5, 425.666626, 87.5, 425.666626 ],
 					"source" : [ "obj-130", 0 ]
 				}
 
@@ -511,98 +511,105 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-128" : [ "Rhythm_L", "Rhythm", 0 ],
+			"obj-126" : [ "Drone_L", "Drone", 0 ],
+			"obj-120::obj-8::obj-55" : [ "Threshold", "Threshold", 0 ],
+			"obj-120::obj-8::obj-30" : [ "Ratio", "Ratio", 1 ],
+			"obj-120::obj-8::obj-15" : [ "Makeup", "Makeup", 4 ],
+			"obj-120::obj-8::obj-14" : [ "Release", "Release", 3 ],
+			"obj-120::obj-8::obj-7" : [ "Output Gain", "Output Gain", 5 ],
+			"obj-130" : [ "Strom_L", "Storm", 0 ],
 			"obj-120::obj-8::obj-13" : [ "Attack", "Attack", 2 ],
 			"obj-146" : [ "Master_L", "L", 0 ],
-			"obj-120::obj-8::obj-15" : [ "Makeup", "Makeup", 4 ],
-			"obj-120::obj-8::obj-30" : [ "Ratio", "Ratio", 1 ],
-			"obj-130" : [ "Strom_L", "Storm", 0 ],
-			"obj-120::obj-8::obj-7" : [ "Output Gain", "Output Gain", 5 ],
-			"obj-120::obj-8::obj-55" : [ "Threshold", "Threshold", 0 ],
-			"obj-126" : [ "Drone_L", "Drone", 0 ],
-			"obj-120::obj-8::obj-14" : [ "Release", "Release", 3 ]
+			"obj-128" : [ "Rhythm_L", "Rhythm", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "effect_sweep.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soundproto_origin.wav",
-				"bootpath" : "~/Development/openFrameworks/of_v0.9.8_osx_release/apps/1802_CCMA/yaritori/src/max/_sliceBuf_for_app_src",
-				"patcherrelativepath" : "../../Development/openFrameworks/of_v0.9.8_osx_release/apps/1802_CCMA/yaritori/src/max/_sliceBuf_for_app_src",
-				"type" : "WAVE",
+				"name" : "stormCurve.maxpat",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rythmCurve.maxpat",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "droneCurve.maxpat",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drone.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resonator.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "redux.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ccma_drone_eq.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "eq.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "highpass.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ccma_reverb.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "DryWet.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowshelf.maxpat",
-				"bootpath" : "~/Desktop/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yafr3.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -610,78 +617,99 @@
 , 			{
 				"name" : "yafr.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Examples/legacy-examples/effects/reverb",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/legacy-examples/effects/reverb",
+				"patcherrelativepath" : "../../../../../../../Shared/Max 7/Examples/legacy-examples/effects/reverb",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr3.maxpat",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "highshelf.maxpat",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "width.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhythm.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ccma_rhythm_eq_first.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ccma_rhythm_eq_second.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "redux_rhy.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "storm.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SimpleDelay_First.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drywet.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SimpleDelay_Second.maxpat",
-				"bootpath" : "~/Desktop/src",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound/yaritoriAudio/maxpat/_sliceBuf_for_app_src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soundproto_origin.wav",
+				"bootpath" : "~/Sonilab/1802_CCMA/sound",
+				"patcherrelativepath" : "../../..",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
  ],

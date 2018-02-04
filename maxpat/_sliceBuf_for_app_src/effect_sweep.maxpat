@@ -225,7 +225,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 185.5, 27.0, 30.0, 30.0 ],
 					"style" : ""
 				}

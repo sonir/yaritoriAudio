@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 328.0, 221.0, 577.0, 524.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.265487, 0.291139, 0, 0.840708, 0.594937, 0, 1.0, 1.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 0.566372, 0.088608, 0, 0.858407, 0.392405, 0, 1.0, 1.0, 0 ],
 					"domain" : 1.0,
 					"id" : "obj-15",
 					"maxclass" : "function",
